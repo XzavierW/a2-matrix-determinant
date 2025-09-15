@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ur20DFyR)
+
 # CS 1342 — Principles of Computer Science II
 **Fall 2025**
 
@@ -13,17 +15,11 @@ The core problem is to compute the determinant of a matrix. Determinants are use
 
 ---
 
-## Submission (GitHub → Canvas workflow)
+## Submission (**GitHub only**)
 
 1) **Work in GitHub Classroom.** Commit and **push** your changes regularly. Each push triggers the GitHub autograder.
 2) **Use autograder feedback.** Your **base logic grade** comes from the autograder results. Keep pushing until all required checks **pass**.
-3) **Finalize for Canvas.** When you are confident your solution is correct and you followed all steps:
-    - Create a ZIP containing **only** these two source files:
-        - `Matrix.java`
-        - `DeterminantCalculation.java`
-    - Name the file exactly: **`firstname_lastname_a2.zip`** (e.g., `lawrence_klinkert_a2.zip`).
-4) **Submit on Canvas** before the deadline by uploading the ZIP from step 3.
-
+3) Provide comments for all Classes, Member Methods, and Helper functions that you make to get **full credit**.
 > Notes
 > - The GitHub push step is **part of the submission process** and determines your base grade via the autograder.
 > - Do not include compiled files or IDE metadata—**source files only**.
@@ -31,10 +27,10 @@ The core problem is to compute the determinant of a matrix. Determinants are use
 ---
 
 ## Late submission policies
-- Submitted **0–2 days** after the due date: **20%** penalty
-- Submitted **2–4 days** after the due date: **40%** penalty
-- Submitted **4–7 days** after the due date: **60%** penalty
-- **No credit** if submitted **seven days** after the due date
+- Updates to your repo **0–2 days** after the due date: **20%** penalty
+- Updates to your repo **2–4 days** after the due date: **40%** penalty
+- Updates to your repo **4–7 days** after the due date: **60%** penalty
+- **No credit** if you update your repo **seven days** after the due date
 
 ---
 
@@ -187,5 +183,3 @@ To earn full credit, make sure your submission satisfies **all** of the followin
 - **No hard‑coded test matrices.** Use values in main class *or* generate them at runtime (e.g., random in a small range). Do **not** write your program so it only works for one specific, hard-coded matrix.
 - **Documentation quality.** Include meaningful **file/class/method header comments**, describe parameters/returns where appropriate, and use **clear variable/class names**. Follow the indentation/formatting guidance from class notes.
 - **Matrix printing is readable.** Use a tidy, consistent layout so the grader can easily verify your results.
-
-
