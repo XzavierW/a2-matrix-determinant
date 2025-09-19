@@ -1,7 +1,7 @@
 package com.student_work;
 import java.util.Random;
 
-// Matrix.java
+
 /**
  Matrix class - Assignment 2
  CS 1342 - Principles of Computer Science 2

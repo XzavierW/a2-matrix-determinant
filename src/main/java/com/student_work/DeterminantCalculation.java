@@ -3,7 +3,7 @@ import java.util.Random;
 
 
 /**
-DeterminantCalculation class - Assignment 2
+ DeterminantCalculation class - Assignment 2
  CS 1342 - Principles of Computer Science 2
  Author: Xzavier Washington
  Date: 09/18/2025
