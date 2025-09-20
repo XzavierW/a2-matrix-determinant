@@ -10,14 +10,14 @@ public class Matrix {
     private int[][] data;
     private int rows, cols;
 
-    // Constructor required by assignment (MxN matrix, values start at 0)
+    // Constructor required by assignment
     public Matrix(int M, int N) {
         this.rows = M;
         this.cols = N;
-        data = new int[M][N]; // initialized to 0 by default
+        data = new int[M][N];
     }
 
-    // Allow initialization with existing 2D array
+    // Constructor for array input
     public Matrix(int[][] input) {
         this.rows = input.length;
         this.cols = input[0].length;
@@ -27,12 +27,11 @@ public class Matrix {
         }
     }
 
-    // Return reference to internal 2D array
+    // Return internal data
     public int[][] getElements() {
         return data;
     }
 
-    // ✅ Add methods expected by test file
     public int numberOfRows() {
         return rows;
     }
@@ -45,7 +44,6 @@ public class Matrix {
         return rows == cols;
     }
 
-    // Assignment originally had printMatrix(), but test expects print()
     public void print() {
         for (int[] row : data) {
             for (int val : row) {
@@ -55,10 +53,10 @@ public class Matrix {
         }
     }
 
-    // Determinant calculation as per assignment rules
+    // Determinant as per assignment
     public int determinant() {
         if (rows != cols) {
-            return -1; // Not a square matrix
+            return -1;
         }
 
         if (rows == 1) {
@@ -73,7 +71,7 @@ public class Matrix {
                  - b * (d * i - f * g)
                  + c * (d * h - e * g);
         } else {
-            return 0; // Larger than 3x3 → return 0
+            return 0;
         }
     }
 }

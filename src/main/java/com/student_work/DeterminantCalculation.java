@@ -40,7 +40,7 @@ public class DeterminantCalculation {
         System.out.println("---------------------------------------");
     }
 
-    // Helper to fill a matrix with random numbers (0–9)
+    // Helper method
     private static void fillRandom(Matrix m, Random rand) {
         int[][] arr = m.getElements();
         for (int i = 0; i < arr.length; i++) {
